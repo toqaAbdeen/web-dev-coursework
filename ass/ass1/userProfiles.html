@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BugFixers Community | Set Up Your Profile</title>
+    <link
+      rel=" website icon"
+      type="image/png"
+      href="BugFixers_Community_logo_withoutBackground.png"
+    />
+  </head>
+
+  <body>
+    <blockquote>
+      <header>
+        <table width="100%" cellpadding="20" cellspacing="10" border="0">
+          <tr>
+            <td>
+              <center>
+                <img
+                  src="BugFixers_Community_logo.png"
+                  alt="BugFixers Community Logo"
+                  width="200"
+                />
+              </center>
+            </td>
+            <td>
+              <center>
+                <h1>BugFixers Community</h1>
+                <h3>Your Space, Your Story</h3>
+              </center>
+            </td>
+          </tr>
+        </table>
+
+        <table width="100%" cellpadding="15" cellspacing="10" border="1">
+          <tbody>
+            <tr>
+              <td>
+                <table width="100%" cellpadding="10" cellspacing="0">
+                  <tr>
+                    <td>
+                      <center>
+                        <a href="index.html">
+                          <img src="homeIcon.png" alt="Home Icon" width="20" />
+                          &nbsp;Home Page
+                        </a>
+                      </center>
+                    </td>
+
+                    <td>
+                      <center>
+                        <a href="knowledgeBase.html">
+                          <img
+                            src="KnowledgeBaseIcon.png"
+                            alt="Knowledge Base Icon"
+                            width="30"
+                          />&nbsp;Knowledge Base</a
+                        >
+                      </center>
+                    </td>
+                    <td>
+                      <center>
+                        <a href="fileSharing.html">
+                          <img
+                            src="fileSharingIcon.png"
+                            alt="File Sharing Icon"
+                            width="30"
+                          />&nbsp;File Sharing</a
+                        >
+                      </center>
+                    </td>
+                    <td>
+                      <center>
+                        <a href="search.html">
+                          <img
+                            src="SearchIcon.png"
+                            alt="Search Icon"
+                            width="30"
+                          />&nbsp;Search</a
+                        >
+                      </center>
+                    </td>
+                    <td>
+                      <center>
+                        <a href="contactUS.html">
+                          <img
+                            src="contactUsIcon.png"
+                            alt="Contact Us Icon"
+                            width="20"
+                          />&nbsp;Contact Us</a
+                        >
+                      </center>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </header>
+    </blockquote>
+
+    <br /><br />
+
+    <main>
+      <blockquote>
+        <h3>
+          Tell your story — your background, your passions, and what you're all
+          about. It only takes a few minutes!
+        </h3>
+
+        <br /><br />
+        <form
+          method="post"
+          action="http://yhassouneh.studentprojects.ritaj.ps/util/process.php"
+          enctype="multipart/form-data"
+        >
+          <table width="100%" cellpadding="10" cellspacing="0" border="0">
+            <tr>
+              <td>
+                <center>
+                  <fieldset>
+                    <table
+                      width="100%"
+                      border="0"
+                      cellspacing="10"
+                      cellpadding="0"
+                    >
+                      <tr>
+                        <td>
+                          <fieldset>
+                            <legend>
+                              <img
+                                src="userProfile.png"
+                                alt="Image"
+                                width="70"
+                              />
+                              <strong>The Basics About You</strong>
+                            </legend>
+                            <p>
+                              Start with your name, photo, and location — the
+                              first puzzle pieces that help others recognize and
+                              connect with you.
+                            </p>
+                            <label>Full Name</label>
+                            <input
+                              type="text"
+                              name="name"
+                              placeholder="Your name"
+                              id="full_name"
+                              required
+                            />
+                            <br /><br />
+
+                            <label for="ProfilePhoto">Profile Photo</label>
+                            <input
+                              type="file"
+                              id="ProfilePhoto"
+                              name="photo"
+                              accept="image/*"
+                              required
+                            />
+                            <br /><br />
+
+                            <label>Email Address</label>
+                            <input
+                              type="text"
+                              name="email"
+                              id="email"
+                              placeholder="Your email address"
+                              required
+                            />
+                            <br /><br />
+
+                            <label for="country">Country</label>
+                            <select id="country" name="country">
+                              <option value="" disabled selected>
+                                Please select a country
+                              </option>
+                              <option value="Palestine">Palestine</option>
+                              <option value="United States">
+                                United States
+                              </option>
+                              <option value="United Kingdom">
+                                United Kingdom
+                              </option>
+                              <option value="Germany">Germany</option>
+                              <option value="France">France</option>
+                              <option value="Canada">Canada</option>
+                              <option value="Australia">Australia</option>
+                              <option value="Japan">Japan</option>
+                              <option value="China">China</option>
+                              <option value="India">India</option>
+                            </select>
+                            <br /><br />
+
+                            <label>City / Region</label>
+                            <input
+                              type="text"
+                              name="City_Region"
+                              placeholder="Enter your city/region"
+                              id="City_Region"
+                            />
+                          </fieldset>
+                        </td>
+                        <td>
+                          <fieldset>
+                            <legend>
+                              <strong>Your Story in a Few Words</strong>
+                            </legend>
+                            <p>
+                              Let others know more about you with a short bio.
+                            </p>
+                            <label for="Short_Bio">Short Bio</label>&nbsp;
+                            <textarea
+                              id="Short_Bio"
+                              name="Short_Bio"
+                              placeholder="Tell us about yourself"
+                              cols="40"
+                              rows="3"
+                              required
+                            ></textarea>
+                            <br /><br />
+
+                            <label for="dateofBirth">Date of Birth</label>
+                            <input
+                              type="date"
+                              name="date_of_birth"
+                              id="dateofBirth"
+                            />
+                            <br /><br />
+
+                            <label>Gender</label>
+                            <label for="female">
+                              <input
+                                type="radio"
+                                id="female"
+                                name="gender"
+                                value="female"
+                              />
+                              Female
+                            </label>
+                            <label for="male">
+                              <input
+                                type="radio"
+                                id="male"
+                                name="gender"
+                                value="male"
+                              />
+                              Male
+                            </label>
+                          </fieldset>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td>
+                          <fieldset>
+                            <legend><strong>What You Love & Do</strong></legend>
+                            <p>Add your interests and areas of expertise.</p>
+                            <label>Interests</label>
+                            <input
+                              type="text"
+                              name="interests"
+                              placeholder="Enter your interests"
+                              id="interests"
+                            />
+                            <br /><br />
+
+                            <label>Skills / Expertise</label>
+                            <input
+                              type="text"
+                              name="Skills_Expertise"
+                              placeholder="Enter your skills"
+                              id="Skills_Expertise"
+                            />
+                            <br /><br />
+
+                            <label>Looking for...</label>
+                            <br />
+                            <label
+                              ><input
+                                type="checkbox"
+                                name="visit"
+                                value="friends"
+                              />
+                              Friends</label
+                            >
+                            <label
+                              ><input
+                                type="checkbox"
+                                name="visit"
+                                value="networking"
+                              />
+                              Networking</label
+                            >
+                            <label
+                              ><input
+                                type="checkbox"
+                                name="visit"
+                                value="collaborators"
+                              />
+                              Collaborators</label
+                            >
+                            <label
+                              ><input
+                                type="checkbox"
+                                name="visit"
+                                value="others"
+                              />
+                              Others</label
+                            >
+                          </fieldset>
+                        </td>
+                        <td>
+                          <fieldset>
+                            <legend>
+                              <img
+                                src="userProfile.png"
+                                alt="Image"
+                                width="70"
+                              />
+                              <strong>Stay Connected</strong>
+                            </legend>
+                            <p>
+                              Share your social profiles or contact info so
+                              others can reach out and collaborate.
+                            </p>
+
+                            <label for="linkedInUrl">LinkedIn URL</label>
+                            <input
+                              type="url"
+                              id="linkedInUrl"
+                              name="linkedInUrl"
+                              placeholder="Enter your LinkedIn URL"
+                            />
+                            <br /><br />
+
+                            <label for="gitHubUrl">GitHub URL</label>
+                            <input
+                              type="url"
+                              id="gitHubUrl"
+                              name="gitHubUrl"
+                              placeholder="Enter your GitHub URL"
+                            />
+                            <br /><br />
+
+                            <label>Phone Number</label>
+                            <input
+                              type="tel"
+                              name="phoneNumber"
+                              placeholder="Enter your phone number"
+                              id="phoneNumber"
+                            />
+                          </fieldset>
+                        </td>
+                      </tr>
+                    </table>
+                  </fieldset>
+                </center>
+              </td>
+            </tr>
+          </table>
+
+          <br /><br />
+          <button type="submit">✨ Create My Profile</button>
+          <br /><br />
+        </form>
+      </blockquote>
+    </main>
+    <blockquote>
+      <footer>
+        <table width="100%" cellpadding="10" cellspacing="10" border="1">
+          <tr>
+            <td>
+              <table width="100%" cellpadding="10" cellspacing="0">
+                <tr>
+                  <td>
+                    <strong>📍 Address:</strong> 14 Salah al-Din Street, East
+                    Jerusalem, Palestine
+                  </td>
+                  <td><strong>📞 Telephone:</strong> +972 54-670-2568</td>
+                  <td>
+                    <strong>📧 Email:</strong>
+                    <a href="mailto:abdeentoqa97@gmail.com"
+                      >abdeentoqa97@gmail.com</a
+                    >
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <center>
+                <p>&copy; 2025 BugFixers Community. All rights reserved.</p>
+              </center>
+            </td>
+          </tr>
+        </table>
+      </footer>
+    </blockquote>
+  </body>
+</html>

@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BugFixers Community | Share Your Files Effortlessly</title>
+    <link
+      rel="website icon"
+      type="image/png"
+      href="BugFixers_Community_logo_withoutBackground.png"
+    />
+  </head>
+  <body>
+    <blockquote>
+      <header>
+        <table width="100%" cellpadding="20" cellspacing="10" border="0">
+          <tr>
+            <td>
+              <center>
+                <img
+                  src="BugFixers_Community_logo.png"
+                  alt="BugFixers Community Logo"
+                  width="200"
+                />
+              </center>
+            </td>
+            <td>
+              <center>
+                <h1>BugFixers Community</h1>
+                <h3>Easy File Sharing for Everyone!</h3>
+              </center>
+            </td>
+          </tr>
+        </table>
+
+        <table width="100%" cellpadding="15" cellspacing="10" border="1">
+          <tbody>
+            <tr>
+              <td>
+                <table width="100%" cellpadding="10" cellspacing="0">
+                  <tr>
+                    <td>
+                      <center>
+                        <a href="index.html">
+                          <img src="homeIcon.png" alt="Home Icon" width="20" />
+                          &nbsp;Home Page
+                        </a>
+                      </center>
+                    </td>
+                    <td>
+                      <center>
+                        <a href="userProfiles.html">
+                          <img
+                            src="userProfilesIcon.png"
+                            alt="User Profiles Icon"
+                            width="20"
+                          />
+                          &nbsp;User Profiles
+                        </a>
+                      </center>
+                    </td>
+
+                    <td>
+                      <center>
+                        <a href="knowledgeBase.html">
+                          <img
+                            src="KnowledgeBaseIcon.png"
+                            alt="Knowledge Base Icon"
+                            width="30"
+                          />&nbsp;Knowledge Base</a
+                        >
+                      </center>
+                    </td>
+
+                    <td>
+                      <center>
+                        <a href="search.html">
+                          <img
+                            src="SearchIcon.png"
+                            alt="Search Icon"
+                            width="30"
+                          />&nbsp;Search</a
+                        >
+                      </center>
+                    </td>
+                    <td>
+                      <center>
+                        <a href="contactUS.html">
+                          <img
+                            src="contactUsIcon.png"
+                            alt="Contact Us Icon"
+                            width="20"
+                          />&nbsp;Contact Us</a
+                        >
+                      </center>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </header>
+    </blockquote>
+
+    <main>
+      <br /><br />
+      <blockquote>
+        <h3>
+          Share and upload files like docs, images, and videos to collaborate
+          and share ideas!
+        </h3>
+        <br />
+        <br />
+        <section id="upload">
+          <h2>Drag & Drop or Choose Your File to Upload</h2>
+          <form
+            action="http://yhassouneh.studentprojects.ritaj.ps/util/process.php"
+            method="post"
+            enctype="multipart/form-data"
+          >
+            <fieldset>
+              <legend>
+                <strong>Share Your File</strong>
+              </legend>
+
+              <label for="fileUpload">Choose a File</label>
+              <input
+                type="file"
+                id="fileUpload"
+                name="file"
+                required
+              /><br /><br />
+
+              <label for="fileName">File Name</label>
+              <input
+                type="text"
+                id="fileName"
+                name="fileName"
+                placeholder="Custom name"
+                required
+              /><br /><br />
+
+              <label for="fileCategory">category</label>
+              <select id="fileCategory" name="category">
+                <option value="documents">Documents</option>
+                <option value="images">Images</option>
+                <option value="videos">Videos</option>
+                <option value="templates">Presentations</option>
+                <option value="code">Code Files</option>
+                <option value="code">Reports</option></select
+              ><br /><br />
+
+              <label for="fileDescription">Tell us more about your file</label
+              ><br />
+              <textarea
+                id="fileDescription"
+                name="description"
+                rows="4"
+                cols="50"
+                placeholder="What's this file about?"
+                required
+              ></textarea
+              ><br /><br />
+
+              <button type="submit">Send It Over!</button>
+            </fieldset>
+          </form>
+        </section>
+        <br /><br />
+        <section id="browse">
+          <h2>Check out the files others have shared!</h2>
+          <fieldset>
+            <legend>
+              <strong>Share Your File</strong>
+            </legend>
+            <br />
+            <table border="1" cellpadding="5" cellspacing="0">
+              <thead>
+                <tr>
+                  <th>File Name</th>
+                  <th>Type</th>
+                  <th>Small description</th>
+                  <th>Uploaded By</th>
+                  <th>Downloads</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>php_tutorial.pdf</td>
+                  <td>Document</td>
+                  <td>
+                    A brief introduction to PHP basics for creating dynamic web
+                    content.
+                  </td>
+                  <td>Toqa Abdeen</td>
+                  <td>142</td>
+                  <td>
+                    <a href="php_tutorial.pdf">Download</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>js_cheat_sheet.png</td>
+                  <td>Image</td>
+                  <td>
+                    A handy reference to core JavaScript syntax, functions, and
+                    common methods for web development.
+                  </td>
+                  <td>Balila</td>
+                  <td>89</td>
+                  <td>
+                    <a href="js_cheat_sheet.png">Download</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>html_cheatsheet .pdf</td>
+                  <td>Document</td>
+                  <td>
+                    A quick reference guide that summarizes essential HTML
+                    elements, attributes, and syntax for building web pages.
+                  </td>
+                  <td>Mahmoud Abdeen</td>
+                  <td>56</td>
+                  <td>
+                    <a href="html_cheatsheet.pdf">Download</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Basic_CSS.docx</td>
+                  <td>Document</td>
+                  <td>
+                    A concise guide to fundamental CSS properties for styling
+                    web pages, including colors, fonts, and layouts.
+                  </td>
+                  <td>Ranood</td>
+                  <td>203</td>
+                  <td>
+                    <a href="Basic_CSS.docx">Download</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <section id="filter">
+              <h3>Filter Files:</h3>
+              <label>
+                <input type="radio" name="filter" checked /> All Files
+              </label>
+              <label> <input type="radio" name="filter" /> Documents </label>
+              <label> <input type="radio" name="filter" /> Images </label>
+              <label> <input type="radio" name="filter" /> Videos </label>
+              <label>
+                <input type="radio" name="filter" /> Presentations
+              </label>
+
+              <label> <input type="radio" name="filter" /> Code Files </label>
+              <label> <input type="radio" name="filter" /> Reports </label>
+            </section>
+          </fieldset>
+        </section>
+        <br /><br />
+      </blockquote>
+    </main>
+    <blockquote>
+      <footer>
+        <table width="100%" cellpadding="10" cellspacing="10" border="1">
+          <tr>
+            <td>
+              <table width="100%" cellpadding="10" cellspacing="0">
+                <tr>
+                  <td>
+                    <strong>📍 Address:</strong> 14 Salah al-Din Street, East
+                    Jerusalem, Palestine
+                  </td>
+                  <td><strong>📞 Telephone:</strong> +972 54-670-2568</td>
+                  <td>
+                    <strong>📧 Email:</strong>
+                    <a href="mailto:abdeentoqa97@gmail.com"
+                      >abdeentoqa97@gmail.com</a
+                    >
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <center>
+                <p>&copy; 2025 BugFixers Community. All rights reserved.</p>
+              </center>
+            </td>
+          </tr>
+        </table>
+      </footer>
+    </blockquote>
+  </body>
+</html>
